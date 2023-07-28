@@ -4,6 +4,9 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+:root{
+  main-color: #C9C5C5;
+}
 
 .layout_padding {
   padding: 90px 0;
@@ -48,7 +51,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #f07b26;
+  color: #394551;
 }
 
 .heading_container.heading_center {
@@ -192,7 +195,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #f07b26;
+  color: #394551;
 }
 
 .header_section .header_top .contact_nav a:hover i {
@@ -219,7 +222,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #f07b26;
+  color: #394551;
 }
 
 .header_section .header_top .social_box a:hover i {
@@ -384,7 +387,7 @@ a:focus {
 .quote_btn-container .quote_btn {
   display: inline-block;
   padding: 5px 25px;
-  background-color: #f07b26;
+  background-color: #394551;
   color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all .3s;
@@ -393,7 +396,7 @@ a:focus {
 }
 
 .quote_btn-container .quote_btn:hover {
-  background-color: #bc570d;
+  background-color: #252525;
 }
 
 /*end header section*/
@@ -471,7 +474,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #f07b26;
+  background-color: #394551;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all .3s;
@@ -480,7 +483,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #bc570d;
+  background-color: #252525;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
@@ -525,7 +528,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 23px;
   height: 23px;
-  background-color: #f07b26;
+  background-color: #394551;
 }
 
 .service_section {
@@ -574,7 +577,7 @@ a:focus {
 }
 
 .service_section .box .detail-box a:hover {
-  color: #f07b26;
+  color: #394551;
 }
 
 .service_section .box:hover .img-box img {
@@ -604,7 +607,7 @@ a:focus {
   top: 50%;
   width: 45px;
   height: 70%;
-  background-color: #f07b26;
+  background-color: #394551;
   z-index: 3;
 }
 
@@ -630,7 +633,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f07b26;
+  background-color: #394551;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all .3s;
@@ -640,7 +643,7 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: #bc570d;
+  background-color: #252525;
 }
 
 .project_section .heading_container {
@@ -667,7 +670,7 @@ a:focus {
 }
 
 .project_section .filter_box h6 {
-  background-color: #000000;
+  /* background-color: pro; */
   color: #ffffff;
   text-transform: uppercase;
   margin: 0;
@@ -687,7 +690,7 @@ a:focus {
 }
 
 .project_section .filter_box .owl-filter-bar a.active {
-  color: #f07b26;
+  color: #394551;
 }
 
 .project_section .box {
@@ -721,7 +724,7 @@ a:focus {
   border-radius: 100%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #f07b26;
+  color: #394551;
   font-size: 20px;
 }
 
@@ -729,7 +732,7 @@ a:focus {
   padding: 15px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-color: #f07b26;
+  background-color: #394551;
   color: #ffffff;
   visibility: hidden;
   opacity: 0;
@@ -770,7 +773,7 @@ a:focus {
 }
 
 .project_section .project_carousel .owl-nav button:hover {
-  background-color: #f07b26;
+  background-color: #394551;
 }
 
 .project_section .project_carousel .owl-nav button.owl-prev {
@@ -782,7 +785,7 @@ a:focus {
 }
 
 .client_section {
-  background-image: url(../images/client-bg.jpg);
+  background-image: url(../images/bg.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -836,7 +839,7 @@ a:focus {
 
 .client_section .box .client_info .client_name h6 {
   margin-bottom: 0;
-  color: #f07b26;
+  color: #394551;
   font-weight: normal;
   font-size: 15px;
   text-transform: uppercase;
@@ -844,7 +847,7 @@ a:focus {
 
 .client_section .box .client_info i {
   font-size: 24px;
-  color: #f07b26;
+  color: #394551;
 }
 
 .client_section .box p {
@@ -869,7 +872,7 @@ a:focus {
 }
 
 .client_section .carousel-indicators li {
-  background-color: #f07b26;
+  background-color: #394551;
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -893,7 +896,7 @@ a:focus {
 }
 
 .why_us_section .why_us_container .box .img-box {
-  background-color: #f07b26;
+  background-color: #394551;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -939,7 +942,7 @@ a:focus {
 .why_us_section .btn-box a {
   display: inline-block;
   padding: 8px 25px;
-  background-color: #f07b26;
+  background-color: #394551;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all .3s;
@@ -948,7 +951,7 @@ a:focus {
 }
 
 .why_us_section .btn-box a:hover {
-  background-color: #bc570d;
+  background-color: #252525;
 }
 
 .contact_section {
@@ -1004,7 +1007,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 12px 55px;
-  background-color: #f07b26;
+  background-color: #394551;
   color: #ffffff;
   border-radius: 50px;
   -webkit-transition: all .3s;
@@ -1013,7 +1016,7 @@ a:focus {
 }
 
 .contact_section .form_container button:hover {
-  background-color: #bc570d;
+  background-color: #252525;
 }
 
 .contact_section .map_container {
@@ -1079,7 +1082,7 @@ a:focus {
 }
 
 .info_section .contact_nav a:hover {
-  color: #f07b26;
+  color: #394551;
 }
 
 .info_section .info_top {
@@ -1107,7 +1110,7 @@ a:focus {
 }
 
 .info_section .info_links .info_links_menu a:hover, .info_section .info_links .info_links_menu a.active {
-  color: #f07b26;
+  color: #394551;
 }
 
 .info_section .info_post .post_box {
@@ -1166,7 +1169,7 @@ a:focus {
 .info_section .info_form button {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f07b26;
+  background-color: #394551;
   color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all .3s;
@@ -1175,7 +1178,7 @@ a:focus {
 }
 
 .info_section .info_form button:hover {
-  background-color: #bc570d;
+  background-color: #252525;
 }
 
 .info_section .info_bottom .row {
@@ -1214,7 +1217,7 @@ a:focus {
   border-radius: 100%;
   width: 35px;
   height: 35px;
-  color: #f07b26;
+  color: #394551;
   font-size: 18px;
   margin-right: 10px;
 }
