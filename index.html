@@ -41,7 +41,7 @@
     <header class="header_section">
       <div class="header_top">
         <div class="container-fluid header_top_container">
-          <div class="lang_box dropdown">
+          <!-- <div class="lang_box dropdown">
             <a href="#" title="Language" class="nav-link" data-toggle="dropdown" aria-expanded="true">
               <img src="images/flag-uk.png" alt="flag" class=" " title="United Kingdom"> <i class="fa fa-angle-down " aria-hidden="true"></i>
             </a>
@@ -53,7 +53,7 @@
             <span>
               English
             </span>
-          </div>
+          </div> -->
           <div class="contact_nav">
             <a href="">
               <i class="fa fa-phone" aria-hidden="true"></i>
@@ -123,7 +123,7 @@
                   <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> Login</a>
+                  <a class="nav-link" href="login.html"> Login</a>
                 </li>
                 <form class="form-inline">
                   <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
@@ -131,11 +131,11 @@
                   </button>
                 </form>
               </ul>
-              <div class="quote_btn-container">
+              <!-- <div class="quote_btn-container">
                 <a href="" class="quote_btn">
                   Obter uma cotação
                 </a>
-              </div>
+              </div> -->
             </div>
           </nav>
         </div>
@@ -274,8 +274,6 @@
     </section>
     <!-- end slider section -->
   </div>
-
-
   <!-- service section -->
 
   <section class="service_section layout_padding">
@@ -733,21 +731,21 @@
       <div class="row p-5 m-auto rounded" style="background-color: #C9C5C5;">
         <div class="col-lg-7 col-md-5 offset-md-1">
           <div class="form_container">
-            <form action="">
+            <form id="contactForm" action="">
               <div>
-                <input type="text" placeholder="Your Name" />
+                <input type="text" id="name" placeholder="Your Name" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" id="phoneNumber" placeholder="Phone Number" />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="text" id="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text" id="message" class="message-box" placeholder="Message" />
               </div>
               <div class="btn_box">
-                <button>
+                <button type="submit">
                   SEND
                 </button>
               </div>
@@ -790,7 +788,9 @@
           </span>
         </a>
       </div>
-
+      <!-- <div class="login-float" id="loginWarning">
+        <a href="login.html">Login</a>
+      </div> -->
       <div class="info_top ">
         <div class="row info_main_row">
           <div class="col-sm-6 col-md-4 col-lg-3">
@@ -908,6 +908,7 @@
   <script src="https://huynhhuynh.github.io/owlcarousel2-filter/dist/owlcarousel2-filter.min.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
+  <script src="js/contact.js"></script>
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
